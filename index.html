@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        /* Dodatkowe style dla rozmiaru ekranu */
+        @media screen and (max-width: 500px) {
+            body {
+                font-size: 12px;
+            }
+        }
+    </style>
+    <title>AI in Industry with Python</title>
+    <script>
+        $(document).ready(function() {
+            $(".wow").click(function() {
+                var section = $(this).closest("section");
+                section.find("p").slideToggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Artificial Intelligence in Industry with Python</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Introduction</a></li>
+            <li><a href="#section2">What is AI?</a></li>
+            <li><a href="#section3">Why Python?</a></li>
+            <li><a href="#section4">AI in Industrial Data Processing</a></li>
+            <li><a href="#section5">Automation of Manufacturing Processes</a></li>
+            <li><a href="#section6">Enhancing Quality Control</a></li>
+            <li><a href="#section7">Logistics and Supply Chain</a></li>
+            <li><a href="#section8">Industrial Safety</a></li>
+            <li><a href="#section9">Python Examples in AI</a></li>
+            <li><a href="#section10">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <!-- Section 1: Introduction -->
+            <h2 class="read-more">Introduction</h2>
+            <p style="display: none;">Welcome to our exploration of the fusion between Artificial Intelligence and the Python programming language, and how this synergy is reshaping industries. Join us as we uncover how Python is becoming a catalyst for revolutionizing production processes.</p>
+        </section>
+
+    <section id="section2">
+        <!-- Section 2: What is AI? -->
+        <h2 class="read-more">What is AI?</h2>
+        <p style="display: none;">Artificial Intelligence is the realm where computers perform tasks that traditionally require human intelligence, such as machine learning, natural language processing, and various other techniques.</p>
+    </section>
+
+    <section id="section3">
+        <!-- Section 3: Why Python? -->
+        <h2 class="read-more">Why Python?</h2>
+        <p style="display: none;">Python has emerged as the predominant programming language in the realm of Artificial Intelligence, owing to its simplicity, clean syntax, an extensive array of libraries for machine learning, and a vibrant developer community.</p>
+    </section>
+
+    <section id="section4">
+        <!-- Section 4: AI in Industrial Data Processing -->
+        <h2 class="read-more">AI in Industrial Data Processing</h2>
+        <p style="display: none;">Python empowers efficient processing and analysis of extensive volumes of production data, an indispensable facet of Industry 4.0.</p>
+    </section>
+
+    <section id="section5">
+        <!-- Section 5: Automation of Manufacturing Processes -->
+        <h2 class="read-more">Automation of Manufacturing Processes</h2>
+        <p style="display: none;">Python is instrumental in automating a wide spectrum of manufacturing processes, including the management of industrial robots and machines.</p>
+    </section>
+
+    <section id="section6">
+        <!-- Section 6: Enhancing Quality Control -->
+        <h2 class="read-more">Enhancing Quality Control</h2>
+        <p style="display: none;">With Python, you can craft AI systems for real-time monitoring and enhancement of product quality, ensuring top-notch output.</p>
+    </section>
+
+    <section id="section7">
+        <!-- Section 7: Logistics and Supply Chain -->
+        <h2 class="read-more">Logistics and Supply Chain</h2>
+        <p style="display: none;">Python finds its role in optimizing supply chains, leading to streamlined management of deliveries and inventory.</p>
+    </section>
+
+    <section id="section8">
+        <!-- Section 8: Industrial Safety -->
+        <h2 class="read-more">Industrial Safety</h2>
+        <p style="display: none;">Python aids in constructing systems for monitoring workplace conditions and early detection of potential threats.</p>
+    </section>
+
+    <section id="section9">
+        <!-- Section 9: Python Examples in AI -->
+        <h2 class="read-more">Python Examples in AI</h2>
+        <p style="display: none;">Illustrative Python applications in AI within industries encompass the development of machine learning models for predicting machinery failures, process optimization, and identification of production anomalies.</p>
+    </section>
+
+    <section id="section10">
+        <!-- Section 10: Conclusion -->
+        <h2 class="read-more">Conclusion</h2>
+        <p style="display: none;">The fusion of Python and Artificial Intelligence is reshaping the industrial landscape, elevating efficiency, quality, and safety. With this alliance, industries evolve into more advanced and competitive entities.</p>
+    </section>
+
+
+    </main>
+    <section id="quiz">
+        <h2 class="wow">Quiz</h2>
+        <p class="wow">Test your knowledge about AI in Industry with Python.</p>
+        
+        <!-- Pytanie 1 -->
+        <div class="question">
+            <h3>Question 1: What is AI?</h3>
+            <label>
+                <input type="radio" name="q1" value="incorrect"> AI stands for Apple Inc.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q1" value="incorrect"> AI is a type of car.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q1" value="correct"> Artificial Intelligence is a field that enables computers to perform tasks that typically require human intelligence.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q1" value="incorrect"> AI is a new type of fruit.
+            </label>
+        </div>
+    
+        <!-- Pytanie 2 -->
+        <div class="question">
+            <h3>Question 2: Why Python is popular in AI?</h3>
+            <label>
+                <input type="radio" name="q2" value="incorrect"> Python is popular because it's the only programming language for AI.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q2" value="correct"> Python is popular in AI due to its simplicity and rich libraries for machine learning.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q2" value="incorrect"> Python is popular because it has the word "snake" in its name.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q2" value="incorrect"> Python is popular in AI because it's great for cooking.
+            </label>
+        </div>
+    
+        <!-- Pytanie 3 -->
+        <div class="question">
+            <h3>Question 3: What can Python be used for in industry?</h3>
+            <label>
+                <input type="radio" name="q3" value="correct"> Python can be used for automation, data processing, and quality control in industry.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q3" value="incorrect"> Python is only used for making games.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q3" value="incorrect"> Python is used to communicate with dolphins.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q3" value="incorrect"> Python is used to bake cookies.
+            </label>
+        </div>
+    
+        <!-- Pozostałe pytania -->
+        <div class="question">
+            <h3>Question 4: What is the main advantage of using Python in AI?</h3>
+            <label>
+                <input type="radio" name="q4" value="correct"> Python's simplicity and readability of syntax.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q4" value="incorrect"> Python can fly.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q4" value="incorrect"> Python is the strongest programming language.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q4" value="incorrect"> Python is the oldest programming language.
+            </label>
+        </div>
+    
+        <div class="question">
+            <h3>Question 5: In which industry can Python be used for automation?</h3>
+            <label>
+                <input type="radio" name="q5" value="correct"> Manufacturing.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="incorrect"> Space exploration.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="incorrect"> Ice cream production.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q5" value="incorrect"> Fashion design.
+            </label>
+        </div>
+    
+        <div class="question">
+            <h3>Question 6: What does AI help monitor in real-time?</h3>
+            <label>
+                <input type="radio" name="q6" value="correct"> Product quality.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q6" value="incorrect"> Weather.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q6" value="incorrect"> Traffic jams.
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="q6" value="incorrect"> Astronomical events.
+            </label>
+        </div>
+        <!-- Pytanie 7 -->
+    <div class="question">
+        <h3>Question 7: What does Python help optimize in supply chains?</h3>
+        <label>
+            <input type="radio" name="q7" value="correct"> Deliveries and inventory.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q7" value="incorrect"> Recipe book creation.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q7" value="incorrect"> Rocket launches.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q7" value="incorrect"> Hair styling.
+        </label>
+    </div>
+
+    <!-- Pytanie 8 -->
+    <div class="question">
+        <h3>Question 8: What does Python help monitor for industrial safety?</h3>
+        <label>
+            <input type="radio" name="q8" value="correct"> The work environment and threats.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q8" value="incorrect"> Ice cream flavors.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q8" value="incorrect"> TV show ratings.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q8" value="incorrect"> Ocean tides.
+        </label>
+    </div>
+
+    <!-- Pytanie 9 -->
+    <div class="question">
+        <h3>Question 9: What are some examples of Python usage in AI in industry?</h3>
+        <label>
+            <input type="radio" name="q9" value="correct"> Predicting machine failures, optimizing manufacturing processes, and identifying production errors.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q9" value="incorrect"> Planning vacations, baking cookies, and painting artwork.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q9" value="incorrect"> Solving crossword puzzles, composing symphonies, and designing skyscrapers.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q9" value="incorrect"> Flying to the moon, exploring the deep sea, and time traveling.
+        </label>
+    </div>
+
+    <!-- Pytanie 10 -->
+    <div class="question">
+        <h3>Question 10: How is Python transforming the industry?</h3>
+        <label>
+            <input type="radio" name="q10" value="correct"> By improving efficiency, quality, and safety.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q10" value="incorrect"> By introducing new ice cream flavors.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q10" value="incorrect"> By teaching parrots to speak.
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="q10" value="incorrect"> By creating flying cars.
+        </label>
+    </div>
+
+        
+    <!-- Przycisk sprawdzania odpowiedzi -->
+    <button class="quiz-button wow">Check Answers</button>
+
+    <!-- Wyniki quizu -->
+    <div class="quiz-results wow">
+        <h3>Quiz Results</h3>
+        <p>You got <span id="score">0</span> out of 10 correct!</p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $(".wow").click(function() {
+                var section = $(this).closest("section");
+                section.find("p").slideToggle();
+            });
+
+            $(".quiz-button").click(function() {
+                const correctAnswers = ["correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct", "correct"];
+                let score = 0;
+
+                for (let i = 1; i <= 10; i++) {
+                    const selectedAnswer = $("input[name=q" + i + "]:checked").val();
+
+                    if (selectedAnswer === correctAnswers[i - 1]) {
+                        score++;
+                    }
+                }
+
+                $("#score").text(score);
+                $(".quiz-results").show();
+            });
+        });
+    </script>
+
+
+        
+    </section>
+    
+    
+    
+
+    <footer>
+        <p>&copy; 2023 Kacper Kuśmierczyk Piotr Wolaniecki</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".read-more").click(function() {
+            var section = $(this).closest("section");
+            var paragraph = section.find("p");
+
+            if (paragraph.is(":hidden")) {
+                paragraph.slideDown();
+            } else {
+                paragraph.slideUp();
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
